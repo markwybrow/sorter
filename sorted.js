@@ -1,10 +1,4 @@
-/**
- * Created by samithafernando on 13/4/17.
- */
-// Setup
-// mocha.setup('bdd');
-//const expect = chai.expect
-
+// Default array[{}]
 const List = require('./payeeList.js');
 
 /* RULES: return by order below
