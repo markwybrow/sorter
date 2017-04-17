@@ -1,0 +1,17 @@
+{
+  "name": "sortpayeelists",
+  "version": "1.0.0",
+  "description": "Sort payee lists by primary -> payeeType -> a) Linked, b) Pay_anyone, c) Bpay -> alphanumeric",
+  "main": "compare.js",
+  "scripts": {
+    "start": "nodemon sorted.js",
+    "test": "mocha test"
+  },
+  "author": "Mark Wybrow",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mochai": "^0.2.5",
+    "nodemon": "^1.11.0"
+  }
+}

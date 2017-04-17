@@ -1,0 +1,50 @@
+const payeeList = [{
+		name: "Mary",
+		payeeType: 'PAY_ANYONE',
+		primary: false,
+}, {
+		name: "Zachary",
+		payeeType: 'BPAY',
+		primary: false,
+}, {
+		name: "Andy",
+		payeeType: 'BPAY',
+		primary: false,
+}, {
+		name: "Sam",
+		payeeType: 'LINKED',
+		primary: false,
+}, {
+		name: "John",
+		payeeType: 'BPAY',
+		primary: false,
+}, {
+		name: "Alex",
+		payeeType: 'PAY_ANYONE',
+		primary: false,
+}, {
+		name: "Zac",
+		payeeType: 'LINKED',
+		primary: true,
+}, {
+		name: "Angela",
+		payeeType: 'LINKED',
+		primary: false,
+}, {
+		name: "Jackson",
+		payeeType: 'LINKED',
+		primary: true,
+}, {
+		name: "Ben",
+		payeeType: 'PAY_ANYONE',
+		primary: false,
+}, {
+		name: "Benjamin",
+		payeeType: 'PAY_ANYONE',
+		primary: true,
+}, {
+		name: "Ralph",
+		payeeType: 'BPAY',
+		primary: true,
+}];
+if (typeof exports !== 'undefined'){ exports.payeeList = payeeList } 
