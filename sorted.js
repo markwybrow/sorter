@@ -27,7 +27,7 @@ function payeeSort(list) {
 
 	if( !list || list.length < 1) {
 		throw new Error( "Error: No data to sort" );
-	} 
+	}
 	
 	const isPrimaryUser = [];
 	const isNotPrimaryUser = [];
